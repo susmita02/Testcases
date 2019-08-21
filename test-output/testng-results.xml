@@ -2,35 +2,22 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="448102" started-at="2019-08-19T02:26:41Z" finished-at="2019-08-19T02:34:09Z">
+  <suite name="Default suite" duration-ms="30640" started-at="2019-08-21T02:53:02Z" finished-at="2019-08-21T02:53:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="448102" started-at="2019-08-19T02:26:41Z" finished-at="2019-08-19T02:34:09Z">
+    <test name="Default test" duration-ms="30640" started-at="2019-08-21T02:53:02Z" finished-at="2019-08-21T02:53:33Z">
       <class name="com.device.DeviceTestcases">
-        <test-method status="PASS" signature="browserSetup()[pri:0, instance:com.device.DeviceTestcases@6e75aa0d]" name="browserSetup" is-config="true" duration-ms="20097" started-at="2019-08-19T02:26:41Z" finished-at="2019-08-19T02:27:01Z">
+        <test-method status="PASS" signature="browserSetup()[pri:0, instance:com.device.DeviceTestcases@6e75aa0d]" name="browserSetup" is-config="true" duration-ms="13552" started-at="2019-08-21T02:53:02Z" finished-at="2019-08-21T02:53:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method status="FAIL" signature="loginPage()[pri:0, instance:com.device.DeviceTestcases@6e75aa0d]" name="loginPage" duration-ms="426765" started-at="2019-08-19T02:27:01Z" finished-at="2019-08-19T02:34:08Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Cannot locate an element using xpath=//span[contains(text(),'Select Device Category')]
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'IN-LT-164197', ip: '192.168.0.103', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
+        <test-method status="FAIL" signature="loginPage()[pri:0, instance:com.device.DeviceTestcases@6e75aa0d]" name="loginPage" duration-ms="15580" started-at="2019-08-21T02:53:16Z" finished-at="2019-08-21T02:53:32Z">
+          <exception class="java.util.NoSuchElementException">
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//span[contains(text(),'Select Device Category')]
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'IN-LT-164197', ip: '192.168.0.103', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at com.device.DeviceTestcases.loginPage(DeviceTestcases.java:52)
+              <![CDATA[java.util.NoSuchElementException
+at java.util.LinkedHashMap$LinkedHashIterator.nextNode(Unknown Source)
+at java.util.LinkedHashMap$LinkedKeyIterator.next(Unknown Source)
+at com.device.DeviceTestcases.loginPage(DeviceTestcases.java:72)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -58,11 +45,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.util.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPage -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.device.DeviceTestcases@6e75aa0d]" name="tearDown" is-config="true" duration-ms="921" started-at="2019-08-19T02:34:08Z" finished-at="2019-08-19T02:34:09Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.device.DeviceTestcases@6e75aa0d]" name="tearDown" is-config="true" duration-ms="902" started-at="2019-08-21T02:53:32Z" finished-at="2019-08-21T02:53:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
